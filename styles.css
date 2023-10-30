@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+.text-container p:first-child {
+  color: white;
+  background: black;
+}
+
+.text-container p:nth-child(2) {
+  color: black; /* Set your desired standard text color */
+}
+
+.text-container p:last-child {
+  color: red;
+}
+.list{
+	width:50%;
+	paddding:10px;
+}
+.list li:nth-child(even) {
+	background-color:grey;
+
+}
+ .list li:nth-child(odd) {
+	 background-color:white;
+ }
+.list  li:first-child {
+	font-size:22px;
+}
+.list li:last-child{
+	font-size:22px;
+}
+.list li:nth-child(3)
+{
+	background-color:pink;
+}
+
+:root{
+	background-color:rgb(135, 206, 235)
+}
