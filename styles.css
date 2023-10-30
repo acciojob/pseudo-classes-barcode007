@@ -1,13 +1,13 @@
-.text-container p:first-child {
+.text-container>p:first-child {
   color: white;
   background: black;
 }
 
-.text-container p:nth-child(2) {
-  color: black; /* Set your desired standard text color */
+.text-container>p:nth-child(2) {
+  color: black;
 }
 
-.text-container p:last-child {
+.text-container >p:last-child {
   color: red;
 }
 .list{
